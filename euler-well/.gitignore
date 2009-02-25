@@ -1,0 +1,4 @@
+*.resharper*
+*.suo
+*.bin
+*.pdb
