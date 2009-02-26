@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\Common\SolutionStrategy.cs" />
     <Compile Include="src\Common\IProblemSolver.cs" />
     <Compile Include="src\Common\ProjectEulerProblemAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
