@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("euler-well-common")]
+[assembly: AssemblyTitle("euler-well-tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Distilled Brilliance")]
-[assembly: AssemblyProduct("euler-well-common")]
+[assembly: AssemblyProduct("euler-well-tests")]
 [assembly: AssemblyCopyright("Copyright © Distilled Brilliance 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -22,7 +22,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("ef4b14ad-929c-4563-b51c-b453187b7303")]
+[assembly: Guid("92ce6d63-aacc-4d38-997f-7dceba423511")]
 
 // Version information for an assembly consists of the following four values:
 //
