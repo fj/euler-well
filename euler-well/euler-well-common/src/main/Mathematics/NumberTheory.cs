@@ -10,8 +10,11 @@ namespace DistilledB.EulerWell.Mathematics {
     /// </remarks>
     /// <param name="n">the number to test</param>
     /// <returns></returns>
-    public static bool IsPrimeWithNaiveTrialDivision(long n)
+    public static bool IsPrimeWithNaiveTrialDivision(ulong n)
     {
+      // Consider inputs less than 2 to be not prime.
+      if (n < 2) return false;
+
       // An even number is prime only if that number is 2.
       if (n % 2 == 0) return n == 2;
 
@@ -26,7 +29,7 @@ namespace DistilledB.EulerWell.Mathematics {
       for (; x <= limit && !isComposite; x += 2)
       {
         // If it's composite, we're all finished.
-        isComposite = n % x == 0;
+        isComposite = n % (ulong) x == 0;
       }
 
       return !isComposite;
