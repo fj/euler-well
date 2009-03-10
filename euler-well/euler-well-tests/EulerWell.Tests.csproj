@@ -65,6 +65,10 @@
       <Project>{C3FA0CDD-8A56-4700-A124-847892532BCE}</Project>
       <Name>EulerWell.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\euler-well-solvers\EulerWell.Solvers.csproj">
+      <Project>{FF6AEA2F-4912-411A-AB7C-6A09D257EF8B}</Project>
+      <Name>EulerWell.Solvers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

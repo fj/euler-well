@@ -1,7 +1,6 @@
 using System;
 using System.Linq;
 using DistilledB.EulerWell.Solvers.AbstruseGoose;
-using DistilledB.EulerWell.Solvers.ProjectEuler;
 using NUnit.Framework;
 using DistilledB.EulerWell.Extensions;
 
