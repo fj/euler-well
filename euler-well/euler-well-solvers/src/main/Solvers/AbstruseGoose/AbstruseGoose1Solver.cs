@@ -4,6 +4,7 @@ using DistilledB.EulerWell.Mathematics;
 
 namespace DistilledB.EulerWell.Solvers.AbstruseGoose {
   [Problem(
+    Id = "abstruse-goose-1",
     Description = "Find the first ten-digit prime in the decimal expansion of e.")]
   public class AbstruseGoose1Solver : IProblemSolver<string> {
     /// <summary>

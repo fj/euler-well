@@ -58,6 +58,8 @@
     <Compile Include="src\test\Solvers\AbstruseGoose\AbstruseGoose1Test.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\test\Solvers\AbstruseGoose\AbstruseGoose2Test.cs" />
+    <Compile Include="src\test\Solvers\AbstruseGoose\AbstruseGoose3Test.cs" />
     <Compile Include="src\test\Solvers\ProblemTestHarness.cs" />
   </ItemGroup>
   <ItemGroup>
