@@ -12,11 +12,5 @@ namespace DistilledB.EulerWell.Solvers.AbstruseGoose {
         Assert.AreEqual("5926535897", s());
       }
     }
-
-    [Test]
-    public void Foo() {
-      var a = new AbstruseGoose3Solver();
-      Assert.AreEqual("73939133", a.DepthFirstSearch());
-    }
   }
 }
