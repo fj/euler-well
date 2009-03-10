@@ -15,8 +15,7 @@ namespace DistilledB.EulerWell.Extensions {
       int index = 0;
       var window = new List<T>(windowSize);
       window.AddRange(new T[windowSize]);
-      foreach (var item in input)
-      {
+      foreach (var item in input) {
         bool initializing = index < windowSize;
 
         if (!initializing) {

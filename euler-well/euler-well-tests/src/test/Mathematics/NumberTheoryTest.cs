@@ -3,11 +3,9 @@ using NUnit.Framework;
 
 namespace DistilledB.EulerWell.Mathematics {
   [TestFixture]
-  public class NumberTheoryTest
-  {
+  public class NumberTheoryTest {
     [Test]
-    public void TestTrialDivisionPrimalityAccuracy()
-    {
+    public void TestTrialDivisionPrimalityAccuracy() {
       Assert.IsFalse(NumberTheory.IsPrimeWithNaiveTrialDivision(1));
 
       // Simpler numbers.
@@ -18,7 +16,7 @@ namespace DistilledB.EulerWell.Mathematics {
       Assert.IsFalse(NumberTheory.IsPrimeWithNaiveTrialDivision(49));
 
       // Larger numbers.
-      Assert.IsFalse(NumberTheory.IsPrimeWithNaiveTrialDivision(100001));  // 11 * 9,091
+      Assert.IsFalse(NumberTheory.IsPrimeWithNaiveTrialDivision(100001)); // 11 * 9,091
 
       Assert.IsFalse(NumberTheory.IsPrimeWithNaiveTrialDivision(104728));
       Assert.IsTrue(NumberTheory.IsPrimeWithNaiveTrialDivision(104729));
