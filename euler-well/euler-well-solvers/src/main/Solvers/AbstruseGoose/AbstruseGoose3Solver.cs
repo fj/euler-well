@@ -31,7 +31,7 @@ namespace DistilledB.EulerWell.Solvers.AbstruseGoose {
         // The number was prime. Let's remember this and generate all its successors.
         primes.Add(candidate);
         foreach (var i in GenerateSuccessorPrimes(candidate)) {
-          candidates.Enqueue(ulong.Parse(i));
+          candidates.Enqueue(i);
         }
       }
 
@@ -39,11 +39,11 @@ namespace DistilledB.EulerWell.Solvers.AbstruseGoose {
       return primes.OrderBy(i => i).Last().ToString();
     }
 
-    public IEnumerable<string> GenerateSuccessorPrimes(ulong s) {
+    public IEnumerable<ulong> GenerateSuccessorPrimes(ulong s) {
       // No even number can be a legal terminating digit, nor the number "5".
       var nextPrimes = new List<string>();
       nextPrimes.AddRange(new string[] {"1", "3", "7", "9"});
-      return nextPrimes.Select(i => s + i);
+      return nextPrimes.Select(i => ulong.Parse(s + i));
     }
   }
 }
